@@ -25,7 +25,7 @@ body {
 }
 .contacts {
   height: 28px;
-  margin-top: 4px;
+  margin-top: 3px;
   margin-bottom: 10px;
 }
 .contacts span {
@@ -210,6 +210,310 @@ body {
 
 .search {
   height: 167px;
+}
+/* search-avto */
+.search-avto {
+  float: left;
+  width: 412px;
+  height: 132px;
+  margin-left: 4px;
+  margin-top: 14px;
+  border: 1px solid #b6b6b7;
+  border-radius: 17px;
+  box-shadow: 2px 2px 5px gray;
+}
+.txt {
+  color: #154467;
+  font-weight: bold;
+}
+.middle-left {
+  float: left;
+  font-size: 10px;
+  letter-spacing: 0.5px;
+  margin-left: 20px;
+  font-weight: 800;
+}
+.big {
+  float: left;
+  font-size: 13px;
+  margin-left: 64px;
+  margin-top: -3px;
+  letter-spacing: -0.4px;
+  font-weight: 800;
+}
+.middle-right {
+  float: right;
+  font-size: 11px;
+  margin-right: 19px;
+  margin-top: -2px;
+  font-weight: 800;
+  letter-spacing: -0.4px;
+}
+.poisk {
+  float: left;
+  width: 190px;
+  height: 90px;
+  text-align: left;
+  padding-left: 16px;
+
+  position: relative;
+}
+.poisk2 {
+  float: right;
+}
+
+.markavto {
+  width: 100%;
+  height: 18px;
+  margin-top: 1px;
+}
+.markavto p {
+  position: absolute;
+top: 8px;
+}
+.select {
+  width: 100px;
+    height: 18px;
+      position: absolute;
+      left: 93px;
+}
+.poisk-avto {
+
+    top: 1px;
+    left: 93px;
+}
+.modelavto {
+  margin-top: 5px;
+  display: flex;
+  align-items: flex-start;
+  width: 100%;
+  line-height: 0px;
+}
+
+.poisk-model {
+  height: 16px;
+  width: 100px;
+}
+.yearavto {
+  display: flex;
+  align-items: baseline;
+  width: 100%;
+}
+.yearavto p {
+  margin-top: 7px;
+  line-height: 8px;
+}
+.poisk-year {
+  height: 18px;
+  width: 57px;
+  position: absolute;
+  left: 93px;
+  top: 45px;
+}
+.komplavto {
+  display: flex;
+align-items: baseline;
+  width: 100%;
+}
+.komplavto p {
+  margin-top: 10px;
+}
+.poisk-kompl {
+      top: 68px;
+}
+select {
+  height: 10px;
+}
+.little {
+  display: block;
+  font-size: 10px;
+  line-height: 8px;
+  float: left;
+}
+.black {
+  color: #000;
+  font-weight: bold;
+}
+.gray {
+  color: gray;
+}
+.poisk-avto {
+  float: left;
+}
+
+
+.search-shun {
+  float: left;
+  width: 191px;
+  height: 134px;
+  margin-left: 15px;
+  margin-top: 13px;
+  border: 1px solid #b6b6b7;
+  border-radius: 17px;
+  box-shadow: 2px 2px 5px gray;
+}
+.search-shun-p {
+  float: left;
+  font-size: 10px;
+  letter-spacing: 0.2px;
+  margin-left: 10px;
+  font-weight: 800;
+}
+.search-shun .first label {
+  float: left;
+  margin-top: 8px;
+  margin-left: 12px;
+  font-size: 10px;
+}
+.search-shun .first-select {
+  height: 17px;
+  width: 50px;
+  float: left;
+  margin-left: 8px;
+  margin-top: 5px;
+}
+.search-shun .first p {
+  float: left;
+  margin-top: 5px;
+  margin-left: 6px;
+}
+.search-shun .second label {
+  float: left;
+  margin-left: 45px;
+  margin-top: 3px;
+  font-size: 10px;
+}
+.search-shun .second-select {
+  float: left;
+  width: 45px;
+  height: 16px;
+  margin-left: 4px;
+  margin-top: 2px;
+}
+.search-shun .third span {
+  font-size: 10px;
+    color: gray;
+    margin-left: 11px;
+    float: left;
+}
+.search-shun .third .checkbox {
+  float: left;
+  text-align: left;
+   margin-left: 11px;
+   margin-top: 2px;
+}
+.search-shun .third label {
+  font-size: 11px;
+  letter-spacing: 1px;
+  cursor: pointer;
+  display: block;
+  height: 14px;
+  letter-spacing: .3px;
+}
+.search .a-poisk {
+  float: right;
+  font-style: italic;
+  color: #154467;
+  text-decoration: underline;
+  margin-right: 18px;
+  margin-top: -1px;
+}
+.search-disk {
+  float: left;
+  width: 265px;
+  height: 133px;
+  margin-left: 10px;
+  margin-top: 12px;
+  border: 1px solid #b6b6b7;
+  border-radius: 17px;
+  box-shadow: 2px 2px 5px gray;
+}
+.block1 .serch-disk-span {
+  float: left;
+  font-size: 10px;
+  letter-spacing: 1.2px;
+  margin-left: 9px;
+  font-weight: 800;
+}
+.block1 {
+  float: left;
+width: 175px;
+
+}
+.block1 div {
+  margin-left: 15px;
+}
+.block1 .first {
+  margin-top: 8px;
+  letter-spacing: 1px;
+}
+.block1 .first .first-select {
+  width: 58px;
+height: 17px;
+margin-left: -7px;
+margin-top: -14px;
+}
+.block1 .second {
+  margin-top: -2px;
+letter-spacing: .6px;
+}
+.block1 .second p {
+  margin-top: -2px;
+    height: 10px;
+}
+.block1 .second .second-select {
+  width: 50px;
+    margin-left: 14px;
+    height: 17px;
+}
+.block1 .third {
+  margin-top: 4px;
+}
+.block1 .third p {
+  letter-spacing: 1px;
+}
+.block1 .third .third-select {
+  width: 58px;
+height: 17px;
+margin-left: 8px;
+margin-top: 2px;
+}
+.block1 .third span {
+  text-align: left;
+  line-height: 9px;
+}
+select {
+  font-size: 11px;
+}
+.block2 {
+  margin-top: 5px;
+  float: right;
+  border-left: 1px solid gray;
+  width: 89px;
+}
+.block2 p span {
+  margin-top: 2px;
+    margin-left: 10px;
+}
+.block2 .span2 {
+  margin-top: 5px;
+}
+.min-text {
+  margin-top: 1px;
+  font-size: 7px;
+  text-align: left;
+  margin-left: 10px;
+  letter-spacing: 1.3px;
+  font-weight: bold;
+}
+.block2 .block2-select {
+  margin-left: -7px;
+    width: 57px;
+    margin-top: 4px;
+    height: 17px;
+}
+.search .search-disk .a-poisk-search-disk {
+  margin-top: 2px;
 }
 
 .left {
@@ -430,37 +734,86 @@ figcaption span {
   border: none;
 }
 .cleaner {clear: both;}
+
+
+
+footer {
 }
 .trands {
-  display: inline-block;
-  margin-top: 15px;
-  margin-bottom: 15px;
+  position: relative;
+  text-align: left;
+  width: 919px;
+  height: 30px;
+  margin-left: 110px;
+  margin-top: 35px;
+  margin-bottom: 26px;
 }
 .trands img {
   margin-left: 8px;
-  margin-top: 27px;
-  margin-bottom: 12px;
+  position: absolute;
+}
+.trands img:first-child {
+  top: 8px;
+  left: 0px;
+}
+.trands img:nth-child(2) {
+  top: 7px;
+  left: 94px;
+}
+.trands img:nth-child(3) {
+  top: 7px;
+  left: 204px;
+}
+.trands img:nth-child(4) {
+  top: 6px;
+  left: 296px;
+}
+.trands img:nth-child(5) {
+  top: 8px;
+  left: 367px;
+}
+.trands img:nth-child(6) {
+  top: 3px;
+  left: 457px;
+}
+.trands img:nth-child(7) {
+  top: 8px;
+  left: 527px;
+}
+.trands img:nth-child(8) {
+  top: 8px;
+  right: 235px;
 }
 
-footer {
+.footer {
+  text-decoration: none;
+  letter-spacing: 0.4px;
   width: 100%;
   height: 100px;
   background: #213a4d;
+  text-align: center;
+  margin-top: 0px;
+  padding-top: 8px;
 }
-.footer {
-  margin-top: 9px;
-}
-footer div {
+.footer li {
   display: inline-block;
   font-size: 12px;
 }
-
-footer .div a {
-  margin-left: 10px;
+.footer li a {
   color: #fff;
-  text-decoration: none;
 }
-footer .div a:hover {
+.footer-menu {
+  margin-left: 10px;
+}
+footer .bord {
+  margin-left: 6px;
+  background: #fff;
+  height: 10px;
+  width: 1px;
+}
+
+}
+footer .footer-menu a:hover {
   color: #52abcb;
 }
 footer p {
@@ -468,4 +821,5 @@ footer p {
   font-size: 10px;
   font-family: arial, sans-serif;
   margin-top: 9px;
+  text-align: center;
 }

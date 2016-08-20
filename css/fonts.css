@@ -1,0 +1,17 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+@import "fonts2.css"
+.container {
+  margin: 200px auto;
+  width: 100vw;
+  height: 30vw;
+  font-size: 1rem;
+  color: #fff;
+  background: #000;
+}
+.container h2 {
+  font-family: 'PT Sans', sans-serif;
+  font-size: 1rem;
+}

@@ -58,14 +58,199 @@
       </header>
 
       <div class="search">
+        <form class="search-avto" action="select1.php" method="post">
+          <p><span class="middle-left txt">Диски:</span><span class="big txt">Поиск по автомобилю</span><span class="middle-right txt">Шины:</span></p>
+          <div class="cleaner"></div>
+          <div class="poisk">
+              <div class="markavto">
+                <p><span class="little black">Марка</span><span class="little gray">авто:</span></p>
+                <select class="poisk-avto select" name="avto">
+                  <option value="">  </option>
+                  <option value="ford"> Ford </option>
+                </select>
+              </div>
+              <div class="modelavto">
+                <p><span class="little black">Модель</span><br>
+                  <span class="little gray">автомобиля:</span></p>
+                <select class="poisk-model select" name="avto">
+                    <option value="">  </option>
+                    <option value="ford"> Ford </option>
+                </select>
+              </div>
+              <div class="yearavto">
+                <p><span class="little black">Год выпуска</span><br>
+                  <span class="little gray">автомобиля:</span></p>
+                <select class="poisk-year" name="avto">
+                    <option value="">  </option>
+                    <option value="ford"> Ford </option>
+                </select>
+              </div>
+              <div class="komplavto">
+                <p><span class="little black">Комплектация:</span></p>
+                <select class="poisk-kompl select" name="avto">
+                    <option value=""></option>
+                    <option value="ford"> Ford </option>
+                </select>
+              </div>
+          </div>
+          <div class="poisk poisk2">
+              <div class="markavto">
+                <p><span class="little black">Марка</span><span class="little gray">авто:</span></p>
+                <select class="poisk-avto select" name="avto">
+                  <option value="">  </option>
+                  <option value="ford"> Ford </option>
+                </select>
+              </div>
+              <div class="modelavto">
+                <p><span class="little black">Модель</span><br>
+                  <span class="little gray">автомобиля:</span></p>
+                <select class="poisk-model select" name="avto">
+                    <option value="">  </option>
+                    <option value="ford"> Ford </option>
+                </select>
+              </div>
+              <div class="yearavto">
+                <p><span class="little black">Год выпуска</span><br>
+                  <span class="little gray">автомобиля:</span></p>
+                <select class="poisk-year" name="avto">
+                    <option value="">  </option>
+                    <option value="ford"> Ford </option>
+                </select>
+              </div>
+              <div class="komplavto">
+                <p><span class="little black">Комплектация:</span></p>
+                <select class="poisk-kompl select" name="avto">
+                    <option value=""></option>
+                    <option value="ford"> Ford </option>
+                </select>
+              </div>
+          </div>
 
+          <a class="a-poisk" href="#">поиск...</a>
+
+        </form>
+        <form class="search-shun" action="select2.php" method="post">
+          <p><span class="search-shun-p txt">ПОИСК ШИН</span></p>
+          <div class="cleaner"></div>
+
+          <div class="first">
+            <label for="size">Размер:</label>
+            <select class="first-select" id="size" name="size">
+              <option value="145">145</option>
+              <option value="1">1</option>
+            </select>
+            <p>/</p>
+            <select class="first-select" id="size" name="size">
+              <option value=""></option>
+              <option value="1">1</option>
+            </select>
+          </div>
+
+          <div class="cleaner"></div>
+
+          <div class="second">
+            <label for="r">R:</label>
+            <select class="second-select" id="r" name="R">
+              <option value="12">12</option>
+              <option value="13">13</option>
+            </select>
+          </div>
+
+          <div class="cleaner"></div>
+
+          <div class="third">
+            <span>Сезон:</span>
+            <div class="checkbox">
+              <label for="leto"><input id="leto" type="checkbox" name="check" value="leto">лето</label>
+              <label for="zima"><input id="zima" type="checkbox" name="check" value="zima">зима</label>
+              <label for="vsesezon"><input id="vsesezon" type="checkbox" name="check" value="vsesezon">всесез</label>
+            </div>
+            <div class="cleaner"></div>
+          </div>
+
+          <a class="a-poisk" href="#">поиск...</a>
+
+        </form>
+        <form class="search-disk" action="select3.php" method="post">
+
+          <div class="block1">
+            <span class="serch-disk-span txt">ПОИСК ДИСКОВ</span>
+            <div class="cleaner"></div>
+            <div class="first">
+              <p>
+                <span class="little black">Диаметр </span>
+                <span class="little gray"> диска:</span>
+              </p>
+              <select class="first-select"  name="diametr">
+                <option value="14">14</option>
+                <option value="15">15</option>
+              </select>
+            </div>
+
+            <div class="cleaner"></div>
+
+            <div class="second">
+
+                  <span class="little black">Количество</span>
+                  <div class="cleaner"></div>
+                  <span class="little gray">крепежных<br>отверстий:</span>
+
+              <select class="second-select"  name=" kol.otverstij">
+                <option value="3">3</option>
+                <option value="4">4</option>
+              </select>
+            </div>
+
+            <div class="cleaner"></div>
+
+            <div class="third">
+              <p>
+                <span class="little black">Диаметр</span>
+                <div class="cleaner"></div>
+                <span class="little gray">расположения <br>крепежных <br>отверстий:</span>
+              </p>
+              <select class="third-select"  name=" diam.otverstij">
+                <option value="12">12</option>
+                <option value="13">13</option>
+              </select>
+            </div>
+
+
+          </div>
+
+
+
+          <div class="block2">
+            <p>
+              <span class="little black">ДЦО</span>
+              <div class="cleaner"></div>
+              <span class=" min-text little gray">(диаметр <br>центрального <br>отверстия):</span>
+            </p>
+            <select class="block2-select"  name=" diam.centr.otverstij">
+              <option value="12">12</option>
+              <option value="13">13</option>
+            </select>
+            <p class="span2">
+              <span class="little">ET</span>
+              <div class="cleaner"></div>
+              <span class="min-text little gray">(вылет диска):</span>
+            </p>
+            <select class="block2-select"  name="vulet.diska">
+              <option value="12">12</option>
+              <option value="13">13</option>
+            </select>
+          </div>
+
+          <a class="a-poisk a-poisk-search-disk" href="#">поиск...</a>
+
+        </form>
       </div>
 
       <aside class="left">
 
         <div class="catalog">
           <div class="circle">
-            <img src="img/katalog-icon.png" alt="" />
+            <img src="img/icon.png" alt="" />
           </div>
           <span>КАТАЛОГ ПРОДУКЦИИ:</span>
         </div>
@@ -176,7 +361,7 @@
       <aside class="right">
         <div class="brend">
           <div class="circle">
-            <img src="img/brend-icon.png" alt="">
+            <img src="img/icon.png" alt="">
           </div>
           <span>БРЕНДЫ:</span>
         </div>
@@ -206,24 +391,33 @@
 
       </aside>
       <div class="cleaner">
-
       </div>
 
-      <section class="trands">
-        <img src="img/brend.jpg" alt="">
-      </section>
 
       <footer>
-        <div class="footer">
-          <div class="div"><a href="#">О компании</a></div>
-          <div class="border"></div>
-          <div class="div"><a href="#">Доставка</a></div>
-          <div class="border"></div>
-          <div class="div"><a href="#">Статьи</a></div>
-          <div class="border"></div>
-          <div class="div"><a href="#">Контакты</a></div>
+        <div class="trands">
+          <img src="img/brends/br1.png" alt="">
+          <img src="img/brends/br2.png" alt="">
+          <img src="img/brends/br3.png" alt="">
+          <img src="img/brends/br4.png" alt="">
+          <img src="img/brends/br5.png" alt="">
+          <img src="img/brends/br6.png" alt="">
+          <img src="img/brends/br7.png" alt="">
+          <img src="img/brends/br8.png" alt="">
         </div>
-        <p>Создание сайта © Global Vision</p>
+        <div class="footer">
+          <ul>
+            <li class="footer-menu"><a href="#">О компании</a></li>
+            <li class="bord"></li>
+            <li class="footer-menu"><a href="#">Доставка</a></li>
+            <li class="bord"></li>
+            <li class="footer-menu"><a href="#">Статьи</a></li>
+            <li class="bord"></li>
+            <li class="footer-menu"><a href="#">Контакты</a></li>
+          </ul>
+          <p>Создание сайта © Global Vision</p>
+        </div>
+
       </footer>
 
     </div>
